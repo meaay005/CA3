@@ -29,6 +29,22 @@
       footer {background-color: rgb(7, 54, 66);}
       footer {color: rgb(131,148,150);}
       article {color: rgb(131,148,150);}
+      article a:link {color:  rgb(211, 54,130);}
+      article a:hover {color: rgb(203, 75, 22);}
+      div {border: rgb(42,161,152);border-width: 3px; border-style: solid;}
+      header { text-align: center }
+      header {color: rgb(181,137,  0);}
+      header {font-size: 150%}
+      nav a{text-align: center}
+      nav a{width:170px; display:block;float:right;}
+      form {padding-top: 30px}
+      aside {color: rgb(133,153,0);}
+      aside a:link {color: rgb(220, 50, 47);}
+      aside a:hover {color:rgb(38,139,210);}
+      body {max-width: 800px}
+      h2 {padding-top:50px}
+      h3 {padding-top:50px}
+ 
     </style>
 
   </head>
@@ -41,12 +57,12 @@
     </header>
 
     <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Our team</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+      
+        <a href="#">Home</a>
+        <a href="#">Our team</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      
 
        <!-- A Search form is another common non-linear way to navigate through a website. -->
 
@@ -63,19 +79,21 @@
       <article>
         <h2>Article heading</h2>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
-
+        <p><a href="#">Lorum ipsum dolor</a> sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. <a href="#">Maecenas congue</a> ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+        <div>
         <h3>Subsection</h3>
 
         <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
 
         <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
-
+      </div>
+      <div>
         <h3>Another subsection</h3>
 
         <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
 
         <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+      </div>
       </article>
 
       <!-- the aside content can also be nested within the main content -->
@@ -100,4 +118,5 @@
     </footer>
 
   </body>
+
 </html>
